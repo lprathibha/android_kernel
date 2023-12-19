@@ -3,8 +3,8 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="main-kernel-build-2023" remote="aosp" sync-j="4" />
 
-  <remote  name="amz" fetch=".." review="git@github.com:lprathibha/android_kernel.git" />
-  <default revision="common-android14-6.1" remote="amz" sync-j="4" />
+  <remote  name="amz" fetch="git@github.com:lprathibha/android_kernel.git" />
+  <default revision="refs/tags/common-android14-6.1" remote="amz" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android14-6.1" />
 
